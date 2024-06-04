@@ -1,0 +1,68 @@
+title:            Made Mistakes
+tagline:          Design Faux Pas
+description:      "Personal website of designer Michael Rose."
+logo:             site-logo.png
+disqus_shortname: mmistakes
+# Comment out url when working locally to resolve base urls correctly
+#url:              http://mademistakes.com
+
+# Owner/author information
+owner:
+  name:           Michael Rose
+  avatar:         michael-rose-photo.jpg
+  bio:            "Just another bearded, tattooed, time traveling, designer hailing from Buffalo New York."
+  email:          michael@mademistakes.com
+  twitter:        "mmistakes"
+  instagram:      "mmistakes"
+  github:         "mmistakes"
+  facebook:       "michaelrose"
+  # For Google Authorship https://plus.google.com/authorship
+  google_plus:    "http://plus.google.com/118238196859537351707"
+
+ga_account:    UA-2011187-1
+google_verify: geapSKtvpBNDSfXVmF09E9CnaHGglbO61r4XgLZtEmo
+bing_verify:   D81F4C18A6CB3018F64D7C827D953DFD
+alexa_verify:  Y5DYjZ4VWlrQzBP5kcQJeOKLNas
+
+future:      true
+lsi:         false
+pygments:    true
+markdown:    kramdown
+# https://github.com/mojombo/jekyll/wiki/Permalinks
+permalink:   /:categories/:title.html
+
+# Internal pages/posts to include in top navigation
+links:
+  - title: About
+    url: /about.html
+  - title: Articles
+    url: /articles
+  - title: PaperFaces
+    url: /articles/paperfaces-ipad-portrait-project.html
+
+maruku:
+  use_tex:    false
+  use_divs:   false
+  png_engine: blahtex
+  png_dir:    images/latex
+  png_url:    /images/latex
+
+rdiscount:
+  extensions: [smart]
+
+kramdown:
+  auto_ids: true
+  footnote_nr: 1
+  entity_output: as_char
+  toc_levels: 1..6
+  use_coderay: true
+  
+  coderay:
+    coderay_line_numbers: 
+    coderay_line_numbers_start: 1
+    coderay_tab_width: 4
+    coderay_bold_every: 10
+    coderay_css: class
+
+include: [".htaccess"]
+exclude: ["lib", "config.rb", "Capfile", "config", "log", "Rakefile", "Rakefile.rb", "tmp", "less", "mademistakes.sublime-project", "mademistakes.sublime-workspace", "codekit-config.json", "Gemfile", "Gemfile.lock", "README.md"]
