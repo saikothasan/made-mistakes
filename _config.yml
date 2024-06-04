@@ -4,7 +4,7 @@ description:      "Personal website of designer Michael Rose."
 logo:             site-logo.png
 disqus_shortname: mmistakes
 # Comment out url when working locally to resolve base urls correctly
-#url:              http://mademistakes.com
+url:              https://saikothasan.github.io/made-mistakes/
 
 # Owner/author information
 owner:
@@ -28,7 +28,6 @@ future:      true
 lsi:         false
 pygments:    true
 markdown:    kramdown
-# https://github.com/mojombo/jekyll/wiki/Permalinks
 permalink:   /:categories/:title.html
 
 # Internal pages/posts to include in top navigation
